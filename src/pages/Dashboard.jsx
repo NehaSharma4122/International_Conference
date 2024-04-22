@@ -1,15 +1,15 @@
-import Footer from '../components/Footer'
-import Organizers from '../components/Organizers'
-import Timeline from '../components/Timeline'
+import Footer from "../Components/Footer";
+import Organizers from "../Components/Organizers";
+import Timeline from "../Components/Timeline";
 
-const Dashboard = () =>{
-    return(
-        <>
-            <Timeline />
-            <Organizers />
-            <Footer />
-        </>
-    )
-}
+const Dashboard = () => {
+  return (
+    <>
+      <Timeline/>
+      <Organizers />
+      <Footer />
+    </>
+  );
+};
 
 export default Dashboard;
