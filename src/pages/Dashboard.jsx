@@ -2,7 +2,7 @@ import Footer from '../components/Footer'
 import Organizers from '../components/Organizers'
 import Timeline from '../components/Timeline'
 
-const Home = () =>{
+const Dashboard = () =>{
     return(
         <>
             <Timeline />
@@ -12,4 +12,4 @@ const Home = () =>{
     )
 }
 
-export default Home;
+export default Dashboard;
