@@ -1,0 +1,20 @@
+.timeline{
+    display: flex;
+    justify-content: center;
+}
+.timetable{
+    margin-top: 60px;
+    /* padding: 10px;
+    margin: 4rem; */
+    padding: 10%;
+    margin: 5rem;
+    position: relative;
+    /* margin: 5rem; */
+    align-items: center;
+    border-collapse: collapse;
+    width: 80%;
+}
+.timetable tr, th, td{
+    border: 2px solid black;
+    padding: 10px;
+}

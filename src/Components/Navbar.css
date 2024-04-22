@@ -1,0 +1,41 @@
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.navbar li{
+    list-style: none;
+    cursor: pointer;
+}
+.navbar {
+    width: 100%;
+    color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 200px;
+    background: transparent;
+    align-items: stretch;
+    list-style: none;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    padding: 1rem;
+    padding-top: 0px;
+    height: 60px;
+}
+.new{
+    background: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.buttons{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
