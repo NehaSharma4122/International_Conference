@@ -52,3 +52,39 @@
         transform: scale(1);
     }
 }
+.Home-location{
+    position: absolute;
+    top: 530px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(255, 214, 163);
+    font-weight: 500;
+}
+.Home-location-timeline{
+    margin-right: 200px;
+}
+.Home-buttons{
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Home-buttons-one button{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-style: solid ;
+    border-color: grey;
+    border-radius: 30px;
+    color: #343232;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
