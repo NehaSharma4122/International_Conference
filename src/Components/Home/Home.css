@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Outfit:wght@100..900&display=swap');
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),url('../../assets/ma.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: "Jersey 15", sans-serif;
+
+}
+.Home-heading{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.Home-heading p{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 120px;
+}
+.Home-text{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.Home-text h5{
+    position: relative;
+    top:10px;
+    left:300px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    font-size: 25px;
+    color: tomato;
+}
+.Home-text p{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    left: -50px;
+    font-size: 100px;
+    font-family: "Jersey 15", sans-serif;
+    /* transition: color 0.5s infinite; */
+}
+/* @keyframes color {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+} */
