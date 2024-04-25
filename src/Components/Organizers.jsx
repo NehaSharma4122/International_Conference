@@ -21,6 +21,7 @@ const Organizers = () => {
               date_time={item.date_time}
               mail={item.mail}
               linkedin={item.linkedin}
+              description={item.description}
             />
           );
         })}

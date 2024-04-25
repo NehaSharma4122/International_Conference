@@ -1,11 +1,11 @@
-// import prof1 from './assets/prof1.png';
-// import prof2 from './assets/prof2.png';
-// import prof3 from './assets/prof3.png';
-// import prof4 from './assets/prof4.png';
-// import prof5 from './assets/prof5.png';
-// import prof6 from './assets/prof6.png';
-// import prof7 from './assets/prof7.png';
-// import prof8 from './assets/prof8.png';
+import prof1 from "./prof1.png";
+import prof2 from "./prof2.png";
+import prof3 from "./prof3.png";
+import prof4 from "./einstein.jpeg";
+import prof5 from "./einstein.jpeg";
+import prof6 from "./einstein.jpeg";
+import prof7 from "./einstein.jpeg";
+import prof8 from "./einstein.jpeg";
 const organizer_info = [
   {
     id: 1,
@@ -20,22 +20,22 @@ const organizer_info = [
   },
   {
     id: 2,
-    name: "Kirti Mishra",
+    name: "Hilke Schellmann",
     image: prof2,
     //image:,
-    prof: "CEO, Microsoft",
-    description: "",
+    prof: "AUTHOR OF \'THE ALGORITHM\', Assitant Professor of Journalism, New York",
+    description: "Hilke Schellmann, is an Emmy award winning investigative reporter and assistant professor of journalism at New York University. As a contributor to The Wall Street Journal and The Guardian, Schellmann writes about holding artificial intelligence (AI) accountable. In her book, The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, and Fired, And Why We Need To Fight Back (Hachette), she investigates the rise of AI in the world of work. Drawing on exclusive information from whistleblowers, internal documents and real‑world tests, Schellmann discovers that many of the algorithms making high‑stakes decisions are biased, racist, and do more harm than good.",
     date_time: "",
     mail: "",
     linkedin: "",
   },
   {
     id: 3,
-    name: "Swastika Mishra",
-    image: prof8,
+    name: "Dr. William (Bill) W. Streilein",
+    image: prof3,
     //image:,
-    prof: "Senior Developer, DRDO",
-    description: "",
+    prof: "CHIEF TECHNOLOGY OFFICER, DoD Chief Digital and AI Office",
+    description: "Dr. William W. Streilein is the Chief Technology Officer for the Chief Digital and AI Office of the DoD, providing strategic awareness, direction and leadership for enterprise scale data, analytical and AI capabilities.",
     date_time: "",
     mail: "",
     linkedin: "",
