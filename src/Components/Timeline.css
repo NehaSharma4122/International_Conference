@@ -1,20 +1,57 @@
+.big{
+    background-color: white;
+    padding: 40px;
+    font-weight: 1000;
+    font-size: 30px;
+}
 .timeline{
     display: flex;
     justify-content: center;
+    background-color: white;
+}
+.timeline .time_pic{
+    height: 337px;
+    width: 337px;
+    margin: 3rem;
+    margin-top: 5rem;
+    margin-right: 1rem;
 }
 .timetable{
     margin-top: 60px;
-    /* padding: 10px;
-    margin: 4rem; */
+    border: 2ps solid black;
+    border-radius: 20px;
     padding: 10%;
     margin: 5rem;
+    margin-left: 1rem;
     position: relative;
-    /* margin: 5rem; */
-    align-items: center;
     border-collapse: collapse;
-    width: 80%;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 70%;
 }
-.timetable tr, th, td{
-    border: 2px solid black;
-    padding: 10px;
+.timetable tbody tr, td{
+    border-bottom: 1px solid #dddddd;
+    padding: 12px;
+}
+.timetable thead th{
+    text-align: left;
+    color: white;
+    font-weight: 400px;
+    padding: 12px;
+    background: #009879;
+}
+.timetable tbody tr:nth-of-type(even) {
+    background-color: #dedcdc;
+}
+
+.timetable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.timetable tbody tr:hover{
+    color: #009879;
+    border-top: 2px solid #009879;
+    border-bottom: 2px solid #009879;
 }

@@ -1,15 +1,31 @@
-import "./Organizers.css"
-import organizer_info from '../assets/organizer_info'
-import Card from './Card'
+import "./Organizers.css";
+import organizer_info from "../assets/organizer_info";
+import Card from "./Card";
 
-const Organizers = () =>{
-    return(
-        <div className="org-container">
-            {organizer_info.map((item)=>{
-                    return (<Card key={item.id} id={item.id} image={item.image} name={item.name} prof={item.prof} date_time={item.date_time} mail={item.mail} linkedin={item.linkedin}/>)
-                })}
-
-        </div>
-    )
-}
+const Organizers = () => {
+  return (
+    <div className="here">
+      <div className="big">
+        <h2>Speakers</h2>
+        <hr />
+      </div>
+      <div className="org-container">
+        {organizer_info.map((item) => {
+          return (
+            <Card
+              key={item.id}
+              id={item.id}
+              image={item.image}
+              name={item.name}
+              prof={item.prof}
+              date_time={item.date_time}
+              mail={item.mail}
+              linkedin={item.linkedin}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 export default Organizers;

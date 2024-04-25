@@ -21,22 +21,60 @@ const Navbar = () => {
       <div className="buttons">
         <ul>
           <li>
-            <a>Brochure</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              Brochure
+            </a>
+            <div class="dropdown-content">
+              <a>Link 1</a>
+              <a>Link 2</a>
+              <a>Link 3</a>
+            </div>
           </li>
           <li>
-            <a>Speakers</a>
+            <Link to="/Speakers">Speakers</Link>
           </li>
           <li>
-            <a>Register</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              Register
+            </a>
+            <div class="dropdown-content">
+              <a>Link 1</a>
+              <a>Link 2</a>
+              <a>Link 3</a>
+            </div>
           </li>
           <li>
-            <a>Events</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              Events
+            </a>
+            <div class="dropdown-content">
+              <a>Link 1</a>
+              <a>Link 2</a>
+              <a>Link 3</a>
+            </div>
           </li>
           <li>
-            <a>Submit Papers</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              Submit Papers
+            </a>
+            <div class="dropdown-content">
+              <a>Link 1</a>
+              <a>Link 2</a>
+              <a>Link 3</a>
+            </div>
           </li>
           <li>
-            <a>Contact Us</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              Contact Us
+            </a>
+            <div class="dropdown-content">
+              <a>Link 1</a>
+              <a>Link 2</a>
+              <a>Link 3</a>
+            </div>
+          </li>
+          <li>
+            <Link to="/Timeline">Timeline</Link>
           </li>
         </ul>
       </div>
