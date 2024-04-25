@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className={colour ? "navbar new" : "navbar"}>
       <Link to="/" className="logo">
-        <h1>Inter-Con</h1>
+        <h1>ADS'24</h1>
       </Link>
       <div className="buttons">
         <ul>
@@ -36,10 +36,10 @@ const Navbar = () => {
             <a>Contact Us</a>
           </li>
           <li>
-            <Link to="/Timeline">Events</Link>
+            <Link to="/Time">Events</Link>
           </li>
           <li>
-            <Link to='/Partners'>Our Partners</Link>
+            <Link to='/Partner'>Our Partners</Link>
           </li>
         </ul>
       </div>

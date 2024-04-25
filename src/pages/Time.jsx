@@ -1,9 +1,9 @@
 import Timeline from "../Components/Timeline";
-const Timeline = () =>{
+const Time = () =>{
     return(
         <>
             <Timeline/>
         </>
     )
 }
-export default Timeline;
+export default Time;

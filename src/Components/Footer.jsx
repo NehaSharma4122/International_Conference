@@ -9,7 +9,7 @@ const Footer = () => {
 
           <div className="col-lg-3 col-md-6">
             <div className="footer-info">
-              <h3>Inter-Con 2024</h3>
+              <h3>ADS - 2024</h3>
               <p>
                 
               </p>
@@ -27,7 +27,7 @@ const Footer = () => {
 
     <div className="container">
       <div className="copyright">
-        &copy; Copyright <strong><span>Inter-Con 2024</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>ADS 2024</span></strong>. All Rights Reserved
       </div>
       
     </div>
