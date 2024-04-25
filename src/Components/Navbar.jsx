@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [colour, setcolour] = useState(false);
   const changecolour = () => {
-    if (window.scrollY >= 350) {
+    if (window.scrollY >= 360) {
       setcolour(true);
     } else {
       setcolour(false);
@@ -21,60 +21,25 @@ const Navbar = () => {
       <div className="buttons">
         <ul>
           <li>
-            <a href="javascript:void(0)" class="dropbtn">
-              Brochure
-            </a>
-            <div class="dropdown-content">
-              <a>Link 1</a>
-              <a>Link 2</a>
-              <a>Link 3</a>
-            </div>
+            <a>Brochure</a>
           </li>
           <li>
             <Link to="/Speakers">Speakers</Link>
           </li>
           <li>
-            <a href="javascript:void(0)" class="dropbtn">
-              Register
-            </a>
-            <div class="dropdown-content">
-              <a>Link 1</a>
-              <a>Link 2</a>
-              <a>Link 3</a>
-            </div>
+            <a>Register</a>
           </li>
           <li>
-            <a href="javascript:void(0)" class="dropbtn">
-              Events
-            </a>
-            <div class="dropdown-content">
-              <a>Link 1</a>
-              <a>Link 2</a>
-              <a>Link 3</a>
-            </div>
+            <a>Submit Papers</a>
           </li>
           <li>
-            <a href="javascript:void(0)" class="dropbtn">
-              Submit Papers
-            </a>
-            <div class="dropdown-content">
-              <a>Link 1</a>
-              <a>Link 2</a>
-              <a>Link 3</a>
-            </div>
+            <a>Contact Us</a>
           </li>
           <li>
-            <a href="javascript:void(0)" class="dropbtn">
-              Contact Us
-            </a>
-            <div class="dropdown-content">
-              <a>Link 1</a>
-              <a>Link 2</a>
-              <a>Link 3</a>
-            </div>
+            <Link to="/Timeline">Events</Link>
           </li>
           <li>
-            <Link to="/Timeline">Timeline</Link>
+            <Link to='/Partners'>Our Partners</Link>
           </li>
         </ul>
       </div>
