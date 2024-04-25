@@ -25,7 +25,7 @@ const About = () => {
                 To this end, we host 4 Data analytics and AI Training Conferences around the globe, including in Boston, San Francisco, London, APAC, as well as in-person meetups, live virtual events, lighting interviews, free webinars, and more.</p>
             </div>
             <div className="About-content-image">
-                <img src="./src/assets/About-ads.JPG" alt="" />
+                <img src="/src/assets/About-ads.JPG" alt="" />
             </div>
             <div className="About-ratingbar">
 
