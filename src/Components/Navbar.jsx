@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="buttons">
         <ul>
           <li>
-            <a>Brochure</a>
+            <a href="">Brochure</a>
           </li>
           <li>
             <a>Speakers</a>
@@ -34,6 +34,9 @@ const Navbar = () => {
           </li>
           <li>
             <a>Submit Papers</a>
+          </li>
+          <li>
+            <a>Our Partners</a>
           </li>
           <li>
             <a>Contact Us</a>
