@@ -23,7 +23,13 @@ const Home = () => {
       </div>
       <div className="Home-buttons">
         <div className="Home-buttons-one">
-          <button>Register Now</button>
+          <button>REGISTER NOW</button>
+        </div>
+        <div className="Home-buttons-two">
+          <button>PRESENTATION GUIDELINES</button>
+        </div>
+        <div className="Home-buttons-three">
+          <button>DOWNLOAD BROCHURE</button>
         </div>
       </div>
     </div>
