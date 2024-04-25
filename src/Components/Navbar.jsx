@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [colour, setcolour] = useState(false);
   const changecolour = () => {
-    if (window.scrollY >= 360) {
+    if (window.scrollY >= 30) {
       setcolour(true);
     } else {
       setcolour(false);
@@ -21,25 +21,25 @@ const Navbar = () => {
       <div className="buttons">
         <ul>
           <li>
-            <a>Brochure</a>
+            <a><p>Brochure</p></a>
           </li>
           <li>
-            <Link to="/Speakers">Speakers</Link>
+            <Link to="/Speakers"><p>Speakers</p></Link>
           </li>
           <li>
-            <a>Register</a>
+            <a><p>Register</p></a>
           </li>
           <li>
-            <a>Submit Papers</a>
+            <a><p>Submit Papers</p></a>
           </li>
           <li>
-            <a>Contact Us</a>
+            <a><p>Contact Us</p></a>
           </li>
           <li>
-            <Link to="/Time">Events</Link>
+            <Link to="/Time"><p>Events</p></Link>
           </li>
           <li>
-            <Link to='/Partner'>Our Partners</Link>
+            <Link to='/Partner'><p>Our Partners</p></Link>
           </li>
         </ul>
       </div>

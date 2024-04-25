@@ -5,9 +5,17 @@ const Timeline = () => {
   return (
     <>
       <div className="big">
-        <h2>Time - Line</h2>
+        <h2>Timeline</h2>
+        <br />
         <hr />
       </div>
+
+      <ul className="days">
+        <li><div className="day">Day 1</div><hr /></li>
+        <li><div className="day">Day 2</div><hr /></li>
+        <li><div className="day">Day 3</div><hr /></li>
+      </ul>
+
       <div className="timeline">
         <img className="time_pic" src={tech} alt="" />
         <table className="timetable">

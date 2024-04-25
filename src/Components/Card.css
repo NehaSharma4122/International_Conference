@@ -1,19 +1,12 @@
 .card{
-    width: 200px;
+    /* width: 200px;*/
     height: 250px;
-    border: 2px solid #ededed;
     cursor: pointer;
     display: flex;
-    /* padding: 10px; */
     margin: 7px;
-    border: 2px solid gray;
-    border-radius: 20px;
-    padding: 10px;
+    border-bottom: 2px solid gray;
+    padding: 20px;
     width: 90%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 .photo img{
     border-radius: 10px;
@@ -25,6 +18,7 @@
     color: black;
     padding: 7px;
     margin: 10px;
+    margin-top: 3px;
 }
 .info span{
     display: flex;

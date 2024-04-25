@@ -7,6 +7,7 @@ const Organizers = () => {
     <div className="here">
       <div className="big">
         <h2>Speakers</h2>
+        <br />
         <hr />
       </div>
       <div className="org-container">
