@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link to="/Timeline">Events</Link>
           </li>
           <li>
-            <Link to='/Partners'>Our Partners</Link>
+            <Link to='/Partner'>Our Partners</Link>
           </li>
         </ul>
       </div>
