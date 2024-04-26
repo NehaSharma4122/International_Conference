@@ -1,0 +1,13 @@
+.schedule{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.sp{
+    border: 2px solid rgb(35, 13, 93);
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+}

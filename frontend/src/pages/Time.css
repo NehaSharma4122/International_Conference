@@ -67,7 +67,6 @@
 }
 .days .day{
     padding: 10px;
-    cursor: pointer;
 }
 .days hr{
     background-color: rgb(28, 28, 174);
