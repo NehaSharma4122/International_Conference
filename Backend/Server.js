@@ -14,7 +14,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 //app.use(express.static(path.resolve(__dirname, '../frontend/build')));
 
 const db = require("./models");
-db.mongoose.connect(db.url, {
+db.mongoose
+.connect(db.url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -26,10 +27,11 @@ db.mongoose.connect(db.url, {
     process.exit();
 });
 
-app.get("/api", (req,res)=>{
+app.get("/", (req,res)=>{
     res.json({message: "This is from backend"});
 });
 
+require("./routes/tutorial.routes")(app);
 // app.get('*',(req,res)=>{
 //     res.sendFile(path.resolve(__dirname,'../frontend/build', 'index.html'));
 // })
