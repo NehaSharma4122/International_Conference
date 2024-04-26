@@ -7,22 +7,24 @@ import Partner from './pages/Partner/Partner';
 import Time from './pages/Time';
 import Dashboard from './pages/Dashboard';
 import { useEffect, useState } from 'react';
+// import { DayContextProvider } from './path/to/your/DayContext';
+import {DayContextProvider} from "./Context/DayContext";
 
 function App() {
-  const [data,setdata] = useState(null);
-  useEffect(()=>{
-    fetch('/api')
-    .then(res=>res.json())
-    .then(data =>setdata(data.message))
-    .catch(err =>console.log(err));
-  },[]);
+  // const [data,setdata] = useState(null);
+  // useEffect(()=>{
+  //   fetch('/api')
+  //   .then(res=>res.json())
+  //   .then(data =>setdata(data.message))
+  //   .catch(err =>console.log(err));
+  // },[]);
   return (
     <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Dashboard />}></Route>
           <Route path="/Speakers" element={<Speakers />}></Route>
-          <Route path="/Time" element={<Time />}></Route>
+          <Route path="/Time" element={<DayContextProvider><Time /></DayContextProvider>}></Route>
           <Route path="/Partner" element={<Partner/>}></Route>
         </Routes>
         <Footer />

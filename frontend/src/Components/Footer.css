@@ -1,6 +1,6 @@
 #footer {
   background: #121d24;
-  padding: 0 0 30px 0;
+  padding: 0px 0px 30px 0px;
   color: #fff;
   font-size: 14px;
 }
@@ -15,12 +15,12 @@
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-info h3 {
+#footer .footer-top .footer-info h1 {
   font-size: 28px;
   margin: 0 0 15px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 #footer .footer-top .footer-info p {
@@ -103,39 +103,6 @@
   color: #ff4a17;
 }
 
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #ff4a17;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ff5e31;
-}
-
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -153,5 +120,23 @@
 }
 
 #footer .container{
-  padding: 20px;
+  padding: 80px;
+}
+
+#footer .side{
+  display: flex;
+  gap: 200px;
+}
+#footer .side p{
+  width: 20%;
+  font-size: medium;
+}
+#footer .side .menu{
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  gap: 20px;
+}
+#footer .side .menu a{
+  color: rgb(163, 161, 161);
 }
