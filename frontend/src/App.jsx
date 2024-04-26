@@ -6,6 +6,7 @@ import Speakers from './pages/Speakers';
 import Partner from './pages/Partner/Partner';
 import Time from './pages/Time';
 import Dashboard from './pages/Dashboard';
+import Registration from './pages/Registration/Registration';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
           <Route path="/Speakers" element={<Speakers />}></Route>
           <Route path="/Time" element={<Time />}></Route>
           <Route path="/Partner" element={<Partner/>}></Route>
+          <Route path="/Dashboard" element={<Dashboard />}></Route>
+          <Route path="/Registration" element={<Registration/>}></Route>
         </Routes>
         <Footer />
     </BrowserRouter>
