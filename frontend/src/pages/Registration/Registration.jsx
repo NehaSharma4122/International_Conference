@@ -70,8 +70,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <select name="select" required="required" autoComplete='off'>
+                    <div className="Registration-content-cont3-row1-text" id='one'>
+                        <select name="select" id="1" required="required" autoComplete='off'>
                             <option value="Select">--Select--</option>
                             <option value="Indian Author and Delegates">Indian Author and Delegates</option>
                         </select>
@@ -83,8 +83,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <select name="" required="required" autoComplete='off'>
+                    <div className="Registration-content-cont3-row1-text" id='two'>
+                        <select name="" id="2" required="required" autoComplete='off'>
                             <option value="Select">--Select--</option>
                             <option value="Participants (non authors)">Participants (non authors)</option>
                         </select>
@@ -96,8 +96,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type="text "name="paperID" required="required" autoComplete='off'/>
+                    <div className="Registration-content-cont3-row1-text" id='three'>
+                        <input type="text "name="paperID" id='3' required="required" autoComplete='off'/>
                     </div>
                 </div>
                 <div className="Registration-content-cont3-row1">
@@ -106,8 +106,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type='text' name="name" required="required" />
+                    <div className="Registration-content-cont3-row1-text" id='four'>
+                        <input type='text' name="name" id='4' required="required" />
                     </div>
                 </div>
                 <div className="Registration-content-cont3-row1">
@@ -116,8 +116,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type='text' name="EmpID" required="required" autoComplete='off'/>
+                    <div className="Registration-content-cont3-row1-text" id='five'>
+                        <input type='text' name="EmpID" id='5' required="required" autoComplete='off'/>
                     </div>
                 </div>
                 <div className="Registration-content-cont3-row1">
@@ -126,8 +126,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type='text' name="course" required="required" autoComplete='off'/>
+                    <div className="Registration-content-cont3-row1-text" id='six'>
+                        <input type='text' name="course" id='6' required="required" autoComplete='off'/>
                     </div>
                 </div>
                 <div className="Registration-content-cont3-row1">
@@ -136,8 +136,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type='text' name="institution" required="required" autoComplete='off'/>
+                    <div className="Registration-content-cont3-row1-text" id='seven'>
+                        <input type='text' name="institution" id='7' required="required" autoComplete='off'/>
                     </div>
                 </div>
                 <div className="Registration-content-cont3-row1">
@@ -146,8 +146,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type='text' name="email" required="required" />
+                    <div className="Registration-content-cont3-row1-text" id='eight'>
+                        <input type='text' name="email" id='8' required="required" />
                     </div>
                 </div>
                 <div className="Registration-content-cont3-row1">
@@ -156,8 +156,8 @@ const Registration = () => {
                             <span className="text-danger">*</span>
                         </label>
                     </div>
-                    <div className="Registration-content-cont3-row1-text">
-                        <input type='text' name="number" required="required" />
+                    <div className="Registration-content-cont3-row1-text" id='nine'>
+                        <input type='text' name="number" id='9' required="required" />
                     </div>
                 </div>
                 <div className="Registration-content-cont3-foot">
