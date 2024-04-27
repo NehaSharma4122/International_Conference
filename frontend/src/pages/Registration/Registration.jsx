@@ -1,5 +1,6 @@
 import React from 'react'
 import './Registration.css'
+import { Form } from 'react-bootstrap'
 
 const Registration = () => {
   return (
@@ -32,11 +33,137 @@ const Registration = () => {
                     </p>
                     <table>
                         <tr>
-                            <th></th>
+                            <th>Categories</th>
+                            <th>IEEE Members</th>
+                            <th>Non-IEEE Members</th>
+                        </tr>
+                        <tr>
+                            <td>Students (UG/PG) & Research Scholars</td>
+                            <td>Rs. 7,000</td>
+                            <td>Rs. 8,000</td>
+                        </tr>
+                        <tr>
+                            <td>Academicians & Industry</td>
+                            <td>Rs. 8,000</td>
+                            <td>Rs. 9,000</td>
+                        </tr>
+                        <tr>
+                            <td>Participants</td>
+                            <td>Rs. 3,000</td>
+                            <td>Rs. 3,000</td>
+                        </tr>
+                        <tr>
+                            <td>Foreign Author</td>
+                            <td>$ 250</td>
+                            <td>$ 250</td>
                         </tr>
                     </table>
                 </div>
             </div>
+            <form className="Registration-content-cont3">
+                <div className="Registration-content-cont3-head">
+                    <h5>Registration Details</h5>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Participant Category
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <select name="select" required="required" autoComplete='off'>
+                            <option value="Select">--Select--</option>
+                            <option value="Indian Author and Delegates">Indian Author and Delegates</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Registration Category
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <select name="" required="required" autoComplete='off'>
+                            <option value="Select">--Select--</option>
+                            <option value="Participants (non authors)">Participants (non authors)</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Paper ID
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type="text "name="paperID" required="required" autoComplete='off'/>
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Name
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type='text' name="name" required="required" />
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Institute Reg No. / Organization Emp Id
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type='text' name="EmpID" required="required" autoComplete='off'/>
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Course/Designation
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type='text' name="course" required="required" autoComplete='off'/>
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Institution/Organization
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type='text' name="institution" required="required" autoComplete='off'/>
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>E-mail Address
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type='text' name="email" required="required" />
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-row1">
+                    <div className="Registration-content-cont3-row1-title">
+                        <label>Mobile Number
+                            <span className="text-danger">*</span>
+                        </label>
+                    </div>
+                    <div className="Registration-content-cont3-row1-text">
+                        <input type='text' name="number" required="required" />
+                    </div>
+                </div>
+                <div className="Registration-content-cont3-foot">
+                    <button>Register</button>
+                </div>
+            </form>
       </div>
     </div>
   )
