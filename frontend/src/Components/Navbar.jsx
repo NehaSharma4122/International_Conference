@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="buttons">
         <ul>
           <li>
-            <a><p>Brochure</p></a>
+          <a href="https://drive.google.com/file/d/1LD-6UfazWdpM9lMN4G52Wwn_N0CvWoAg/view?usp=drive_link" target="_blank"><p>Brochure</p></a>
           </li>
           <li>
             <Link to="/Speakers"><p>Speakers</p></Link>
@@ -29,12 +29,12 @@ const Navbar = () => {
           <li>
             <Link to="/Registration"><p>Registration</p></Link>
           </li>
-          <li>
+          {/* <li>
             <a><p>Submit Papers</p></a>
           </li>
           <li>
             <a><p>Contact Us</p></a>
-          </li>
+          </li> */}
           <li>
             <Link to="/Time"><p>Events</p></Link>
           </li>
