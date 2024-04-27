@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { LuCalendarDays } from "react-icons/lu";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -23,13 +24,13 @@ const Home = () => {
       </div>
       <div className="Home-buttons">
         <div className="Home-buttons-one">
-          <button>REGISTER NOW</button>
+          <button><Link to="/Registration">REGISTER NOW</Link></button>
         </div>
         <div className="Home-buttons-two">
-          <button>PRESENTATION GUIDELINES</button>
+          <button><a href="https://drive.google.com/file/d/1EXLyXtHGQ7QyDydQplJNMvOK4udDjdgD/view?usp=drive_link" target="_blank">PRESENTATION GUIDELINES</a></button>
         </div>
         <div className="Home-buttons-three">
-          <button>DOWNLOAD BROCHURE</button>
+          <button><a href="https://drive.google.com/file/d/1LD-6UfazWdpM9lMN4G52Wwn_N0CvWoAg/view?usp=drive_link" target="_blank">DOWNLOAD BROCHURE</a></button>
         </div>
       </div>
     </div>
